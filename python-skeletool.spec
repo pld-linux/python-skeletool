@@ -9,6 +9,7 @@ Group:		Libraries/Python
 Source0:	https://gitorious.org/skeletool/skeletool/archive/57f281082ce6534ff88135515ca3e26922d15df4.tar.gz
 # Source0-md5:	db1e7556c7ede52c58570da26859e661
 URL:		https://gitorious.org/skeletool
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
